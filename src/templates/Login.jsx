@@ -1,7 +1,5 @@
-import { push } from 'connected-react-router'
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { signInAction } from '../reducks/users/actions'
 import { signIn } from '../reducks/users/operations'
 
 const Login = () => {
